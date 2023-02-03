@@ -8,7 +8,7 @@ os.chdir('/Users/Joy/Desktop/Python_Projects/Certificate') # Current directory p
 
 def send_mail(certificate, recipient):
 
-    E_MAIL = os.environ.get('TEST_E-MAIL') # Hidden the e-mail and password in path varaibles
+    E_MAIL = os.environ.get('TEST_E-MAIL') # e-mail and password stored in environment varaibles
     PASSWORD = os.environ.get('EMAIL_PASS')
 
     msg = EmailMessage()
